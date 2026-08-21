@@ -31,9 +31,9 @@ def predict_sales():
         'Store_Size': data['Store_Size'],
         'Store_Location_City_Type': data['Store_Location_City_Type'],
         'Store_Type': data['Store_Type'],
-        'Product_Id_char': data['Product_Id_char'],
-        'Store_Age_Years': data['Store_Age_Years'],
-        'Product_Type_Category': data['Product_Type_Category']
+        'Product_Char': data['Product_Char'],
+        'Store_Age': data['Store_Age'],
+        'Product_Type_Perishability': data['Product_Type_Perishability']
     }
 
     # convert the extracted data into a DataFrame
